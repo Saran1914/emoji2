@@ -1,0 +1,113 @@
+
+
+.face{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 234, 0);
+    border-radius: 50%;
+}
+
+.reye{
+    height: 40px;
+    width: 20px;
+    background-color: black;
+    border-radius: 100%;
+    position:absolute;
+    top: 60px;
+    left: 50px;
+    overflow: hidden;
+}
+.leye{
+    height: 40px;
+    width: 20px;
+    background-color: black;
+    border-radius: 100%;
+    position:absolute;
+    top: 60px;
+    left: 145px;
+    overflow: hidden;
+}
+.mouth{
+    height: 30px;
+    width: 60px;
+    background-color: red;
+    position: absolute;
+    top: 150px;
+    left: 80px;
+    border-radius: 0px 0px 50px 50px;
+    overflow: hidden;
+}
+.tongue{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(216, 112, 169);
+    border-radius: 100%;
+    position: absolute;
+    top: 8px;
+    left: 10px;
+}
+.reye:hover{
+    background-color:black;
+    transform: scale(1.5);
+}
+.leye:hover{
+    background-color: black;
+    transform: scale(1.5);
+}
+.eyeball1{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    top: 25px;
+    left: 0px;
+}
+.eyeball2{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    top: 25px;
+    left: 0px;
+}
+.emoji:hover{
+    transform: rotate(180deg);
+}
+.blush1{
+    height: 0.5px;
+    width: 0.5px;
+    box-shadow: 10px 10px 10px 10px rgb(198, 114, 114);
+    border-radius: 100%;
+    position: absolute;
+    left: 150px;
+    margin-top: 120px;
+
+}
+.blush2{
+    height: 0.5px;
+    width: 0.5px;
+    box-shadow: 10px 10px 10px 10px rgb(198, 114, 114);
+    border-radius: 100%;
+    position: absolute;
+    left: 50px;
+    margin-top: 120px;
+}
+/* .nose{
+    height: 10px;
+    width: 5px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 110px;
+    left: 105px;
+} */
+/* tongue{
+    height: 30px;
+    width: 60px;
+    background-color: palevioletred;
+    position: absolute;
+    top: 150px;
+    left: 80px; */
+    /* border-radius: 50px 50px 50px 50px; */
